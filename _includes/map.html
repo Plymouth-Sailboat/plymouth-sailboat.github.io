@@ -1,0 +1,20 @@
+<section id="contact" class="map">
+
+<script>
+function myMap() {
+	var mapOptions = {
+		center: new google.maps.LatLng(50.374923, -4.140818),
+		zoom: 17,
+		mapTypeId: google.maps.MapTypeId.ROADMAP
+	}
+	var map = new google.maps.Map(document.getElementById("contact"), mapOptions);
+	var marker = new google.maps.Marker({
+        position: new google.maps.LatLng(50.374923, -4.140818),
+        map: map,
+        title: 'Marine Building'
+    });
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key={{ site.google_api_key }}&callback=myMap"></script>
+</section>
