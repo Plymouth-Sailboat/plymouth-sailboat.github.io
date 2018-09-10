@@ -28,7 +28,7 @@ copyright:
 title: Plymouth Sailboat
 subtitle: "Plymouth Autonomous Sailboat Project"
 email: ulysse.vautier@plymouth.ac.uk
-url: "http://plymouth-sailboat.github.io" # the base hostname & protocol for your site
+url: "https://plymouth-sailboat.github.io" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: "/"
 cover: "/assets/cover.png"
