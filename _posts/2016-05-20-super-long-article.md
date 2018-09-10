@@ -5,8 +5,9 @@ subtitle: "First"
 author: "Ulysse VAUTIER"
 date: 2018-09-10 15:25:00
 image:
-    thumb: IMG_0327-e1518717871639.jpg
-    caption_url: https://plymouth-sailboat.github.io
+    - thumb: IMG_0327-e1518717871639.jpg
+    - title: IMG_0327-e1518717871639.jpg
+    - caption_url: https://plymouth-sailboat.github.io
 
 ---
 
