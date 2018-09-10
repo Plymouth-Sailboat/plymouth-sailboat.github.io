@@ -12,6 +12,17 @@ keep_files:
   - ".git"
   - ".gitignore"
 
+# User setting
+owner: Ulysse Vautier
+email: ulysse.vautier@plymouth.ac.uk
+facebook_username:
+twitter_username:
+github_username: Plymouth-Sailboat
+address:
+  - line: Reynolds Building, School of Engineering, University of Plymouth, Plymouth, Devon PL4 8AA, UK
+  # Feel free to add more lines here 
+telephone: +44 (0)1752 586 157
+copyright:
 
 # Site settings
 title: Plymouth Sailboat
