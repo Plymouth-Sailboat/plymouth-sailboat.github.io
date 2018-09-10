@@ -4,11 +4,33 @@ layout: page
 
 <div class="post">
   <!-- Wrapper Start -->
+  <header>
+
+				<div itemprop="name">
+					{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
+					<h1>{{ page.title }}</h1>
+				</div>
+			</header>
   <section id="intro" style="border: 1px dotted #ddd;">
     <div class="container">
       <div class="row">
         <div>
           <div class="block">
+			{% if page.image_thumb %}
+			<figure>
+				<img src="{{ site.url }}{{ site.baseurl }}/img/{{ page.image_thumb }}" width="970" alt="{{ page.title | escape_once }}" itemprop="image">
+
+				{% if page.image_url and page.image_caption %}
+				<figcaption class="text-right">
+					<a href="{{ page.image_url }}">{{ page.image_caption }}</a>
+				</figcaption>
+				{% elsif page.image_caption %}
+				<figcaption class="text-right">
+					{{ page.image_caption }}
+				</figcaption>
+				{% endif %}
+			</figure>
+			{% endif %}
             <h1>{{ page.title }}</h1>
             <div class="post-info-wrapper">
               <p class="italic">By <span class="bold">{{ page.author }}</span> on <span class="bold">{{ page.date | date: "%B %-d, %Y" }}</span></p>
