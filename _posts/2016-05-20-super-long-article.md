@@ -3,10 +3,6 @@ layout: post
 title: "Some articles are just so long they deserve a really long title to see if things will break well"
 subtitle: "First"
 author: "Ulysse VAUTIER"
-image:
-    thumb: IMG_0327-e1518717871639.jpg
-    title: IMG_0327-e1518717871639.jpg
-    caption_url: https://plymouth-sailboat.github.io
 
 ---
 
