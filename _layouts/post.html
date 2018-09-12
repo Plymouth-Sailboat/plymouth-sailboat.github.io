@@ -16,9 +16,14 @@ layout: page
       <div class="row">
         <div>
           <div class="block">
-			{% if page.image_thumb %}
+			{% if page.image_thumb or page.image_url %}
 			<figure>
-				<img src="{{ site.url }}{{ site.baseurl }}/img/{{ page.image_thumb }}" width="970" alt="{{ page.title | escape_once }}" itemprop="image">
+			
+					{% if page.image_thumb %}
+						<img src="{{ site.url }}{{ site.baseurl }}/img/{{ page.image_thumb }}" width="970" alt="{{ page.title | escape_once }}" itemprop="image">
+					{% elsif page.image_url %}
+						<img src="{{ page.image_url }}" width="970" alt="{{ page.title | escape_once }}" itemprop="image">
+					{% endif %}
 
 				{% if page.image_url and page.image_caption %}
 				<figcaption class="text-right">
