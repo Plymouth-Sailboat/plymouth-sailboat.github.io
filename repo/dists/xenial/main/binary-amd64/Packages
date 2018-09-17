@@ -1,0 +1,16 @@
+Package: ros-kinetic-sailrobot
+Version: 1.2.0-0xenial
+Architecture: amd64
+Maintainer: Ulysse Vautier <ulysse.vautier@plymouth.ac.uk>
+Installed-Size: 29
+Depends: ros-kinetic-gps-common, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-rosserial, ros-kinetic-std-msgs, ros-kinetic-tf
+Homepage: https://plymouth-sailboat.github.io
+Priority: extra
+Section: misc
+Filename: pool/main/r/ros-kinetic-sailrobot/ros-kinetic-sailrobot_1.2.0-0xenial_amd64.deb
+Size: 4842
+SHA256: 27768d88c238f72ba3678fe478254f979ff33c54692ccd75ef80988b4ac27cb1
+SHA1: e9ebfd40b903a1cf91416b47de1201c36a6e4b61
+MD5sum: 329b918615182f490db12a5117b79f32
+Description: The sailrobot package
+

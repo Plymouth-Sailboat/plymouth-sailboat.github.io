@@ -1,0 +1,7 @@
+Origin: plymouth-sailboat.github.io/repo
+Label: plymouth-sailboat.github.io/repo
+Codename: xenial
+Architectures: amd64
+Components: main
+Description: Personal repository
+SignWith: C2F80C7B

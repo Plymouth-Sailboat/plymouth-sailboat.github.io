@@ -1,0 +1,19 @@
+Origin: plymouth-sailboat.github.io/repo
+Label: plymouth-sailboat.github.io/repo
+Codename: xenial
+Date: Tue, 31 Jul 2018 13:06:35 UTC
+Architectures: amd64
+Components: main
+Description: Personal repository
+MD5Sum:
+ 0469b525e90d0ac97305fa532c483508 678 main/binary-amd64/Packages
+ 1b311f3c69b5f01e19bf5d06d141ac27 417 main/binary-amd64/Packages.gz
+ f5e0aefcdb644873e1b5c284a93a7056 150 main/binary-amd64/Release
+SHA1:
+ 7844886f1501b5472c16cf68e86c72170aeffa35 678 main/binary-amd64/Packages
+ 7bf7f9ebf54d75e68343e97cbd247aed189c805c 417 main/binary-amd64/Packages.gz
+ 79451f3848cce2f048e80883b08dc53757150db1 150 main/binary-amd64/Release
+SHA256:
+ 527baf19bf8040c2fe17d899749318d992f7c5a77d18257d03ad82f335642e9c 678 main/binary-amd64/Packages
+ ce577235d02e3f181918e24b39ff8a1557fd0cf0c3c2e772adc2dc500f08fe8a 417 main/binary-amd64/Packages.gz
+ 140c01372ee0b7e3e901ee09ef3a60698b0543c2fcfd04712a16f7713f2ac9e6 150 main/binary-amd64/Release
